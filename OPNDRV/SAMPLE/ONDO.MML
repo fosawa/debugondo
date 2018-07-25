@@ -1,0 +1,281 @@
+\psg[1]
+{
+;PCM部
+*pcm0
+r1
+r1
+r1
+r2 r8 *pst r4.
+r1 *ped *pcm1
+r2 r4 *pst r4
+r1
+r1
+r1
+r1
+r1
+r1 *ped *pcm1
+r2 r4 *pst r4
+r2 *ped *pcm1 r4 *pst r4
+r1 *ped *pcm0
+r2r8 *pst r4.
+r1
+r2 *ped *pcm1 r4 *pst r4
+r1
+r1
+r1
+r2 *ped *pcm2 r4 *pst r4
+
+r1 *ped *pcm0
+r2r8 *pst r4.
+r1
+r2 *ped *pcm1 r4 *pst r4
+
+r1
+r1
+
+*pcm0
+r1
+r1
+r1
+r2 r8 *pst r4.
+r1 *ped *pcm1
+r2 r4 *pst r4
+r1
+r1
+r1
+r1
+r1
+r1 *ped *pcm1
+r2 r4 *pst r4
+r2 *ped *pcm1 r4 *pst r4
+r1 *ped *pcm0
+r2r8 *pst r4.
+r1
+r2 *ped *pcm1 r4 *pst r4
+r1
+r1
+r1
+r2 *ped *pcm2 r4 *pst r4
+
+r1 *ped *pcm0
+r2r8 *pst r4.
+r1
+r2 *ped *pcm1 r4 *pst r4
+
+r1 r1
+r1 r1
+r1
+r2 *ped *pcm1 r4 *pst r4
+r1
+r2 *ped *pcm2 r4 *pst r4
+
+r1
+r1
+
+r1
+r2 *ped *pcm1 r4 *pst r4
+r1
+r2 *ped *pcm2 r4 *pst r4
+
+r1
+*ped
+r1
+*pcm3
+r1
+
+*pst r1 r1 *ped
+}
+
+
+\fm[1]
+{
+t120
+*let@@0,0
+@1
+;前奏
+r1 r2. g6 a12
+o5 c4 c4 c6 d24c24 o4 a6 g12
+*ton a12 a12 *tof a12 r12 r12 g12 a2
+
+g4 g4 g6 a24g24 e6c12 
+d6d12 r12 r12 e12 d4 c6d12
+
+*ton e2 e6 *tof g12 e6g12
+
+a6g12 a6g12 a6 *ton o5 c12 c6 *tof o4 a12
+
+r12 r12 g4 g12 a6g12 e6d12 
+c1
+
+;歌詞スタート
+@0
+;1番
+r12 r12 *inc@@0 e12 *tof *ton  *inc@@0 g4 g4 g6 *tof *inc@@0 g12
+r12 r12 *inc@@0 a4  *inc@@0 g12  *inc@@0 e6  g12  *inc@@0 e6 d12
+*inc@@0 c6 c12 d6  *inc@@0 e12 *ton  *inc@@0 g2 g1 *tof
+
+r12r12 *inc@@0 a12 *inc@@0 a6 *inc@@0 g12 *inc@@0 a6g12 *inc@@0 a6 *inc@@0 g12
+*inc@@0 e6d12 e6 *inc@@0 e12 *inc@@0 e2
+
+*inc@@0 d4 *inc@@0 d6 *inc@@0 c12 *inc@@0 d4 *inc@@0 g6 *inc@@0 g12
+*inc@@0 e6e12 *inc@@0 d6c12 *inc@@0 o3a2
+
+o4 *inc@@0 c6 *inc@@0 c12 *inc@@0 c6 *inc@@0 c12 *inc@@0 c6 *inc@@0 c12 o3 *inc@@0 a6 *inc@@0 g12
+*inc@@0 a6 *inc@@0 a12 o4 *inc@@0 c6 *inc@@0 c12 *inc@@0 d4 *inc@@0 e6 *inc@@0 d12
+
+*inc@@0 e2 *inc@@0 d6d12 *inc@@0 c6o3 *inc@@0 a12
+o4 *inc@@0 c6 *inc@@0 c12 *inc@@0 c6 *inc@@0 c12 *inc@@0 c2
+
+;さび
+r12 r12 *inc@@0 g12 *ton *inc@@0 e12 e12 *tof *inc@@0 g12  *ton *inc@@0 a12 a12 *tof a12 *ton *inc@@0 a12 a12 *tof *inc@@0 a12
+*inc@@0 g6g12 *inc@@0 a6o5c12 *inc@@0 d2
+r12 r12 *inc@@0 e12 *inc@@0 e6 *inc@@0 e12  *inc@@0 d6 d12 *inc@@0 c6 o4 *inc@@0 a12
+*inc@@0 g6 *inc@@0 g12 g6 *inc@@0 g12 g2
+
+*inc@@0 e6 *inc@@0 e12 *inc@@0 d6 *inc@@0 c12 *inc@@0 d6d12 *inc@@0 e6 *inc@@0 e12
+*inc@@0 g6g12 *inc@@0 e6a12 *inc@@0 g4 *inc@@0 g6 *inc@@0 a12 
+
+*inc@@0 o5c2 o4 *inc@@0 a6 *inc@@0 g12 *inc@@0 e6 *inc@@0 a12
+*inc@@0 g6g12 *inc@@0 e6 *inc@@0 d12 c2
+
+;間奏
+@1
+o5 c4 c4 c6 d24c24 o4 a6 g12
+*ton a12 a12 *tof a12 r12 r12 g12 a2
+
+g4 g4 g6 a24g24 e6c12 
+d6d12 r12 r12 e12 d4 c6d12
+
+*ton e2 e6 *tof g12 e6g12
+
+a6g12 a6g12 a6 *ton o5 c12 c6 *tof o4 a12
+
+r12 r12 g4 g12 a6g12 e6d12 
+c1
+;2番
+@0
+r12 r12 *inc@@0 e12 *tof *ton g4 g4 g6 *tof *inc@@0 g12
+r12 r12 *inc@@0 a4 g12 *inc@@0 e6g12 *inc@@0 e6d12
+*inc@@0 c6 *inc@@0 c12 *inc@@0 d6e12 *ton *inc@@0 g2 g1 *tof 
+
+r12r12 *inc@@0 a12 *inc@@0 a6 *inc@@0 g12 *inc@@0 a6g12 *inc@@0 a6g12
+*inc@@0 e6 *inc@@0 d12 *inc@@0 e6 *inc@@0 e12 *inc@@0 e2
+
+*inc@@0 d6 *inc@@0 d12 *inc@@0 d6 *inc@@0 c12 *inc@@0 d6 *inc@@0 d12 *inc@@0 g6 *inc@@0 g12
+*inc@@0 e6 *inc@@0 e12 *inc@@0 d6 *inc@@0 c12 *inc@@0 o3a2
+
+o4 *inc@@0 c6 *inc@@0 c12 *inc@@0 c6 *inc@@0 c12 *inc@@0 c6 *inc@@0 c12 *inc@@0 o3a6 *inc@@0 g12
+*inc@@0 a6 *inc@@0 a12 o4 *inc@@0 c6 *inc@@0 c12 *inc@@0 d4 *inc@@0 e6 *inc@@0 d12
+
+*inc@@0 e2 *inc@@0 d6d12 *inc@@0 c6o3 *inc@@0 a12
+o4 *inc@@0 c6 *inc@@0 c12 *inc@@0 c6 *inc@@0 c12 *inc@@0 c2
+
+;さび
+r12 r12 *inc@@0 g12 *ton *inc@@0 e12 e12 *tof *inc@@0 g12  *ton *inc@@0 a12 a12 *tof a12 *ton *inc@@0 a12 a12 *tof *inc@@0 a12
+*inc@@0 g6g12 *inc@@0 a6o5c12 *inc@@0 d2
+r12 r12 *inc@@0 e12 *inc@@0 e6 *inc@@0 e12  *inc@@0 d6 d12 *inc@@0 c6 o4 *inc@@0 a12
+*inc@@0 g6 *inc@@0 g12 g6 *inc@@0 g12 g2
+
+*inc@@0 e6 *inc@@0 e12 *inc@@0 d6 *inc@@0 c12 *inc@@0 d6d12 *inc@@0 e6 *inc@@0 e12
+*inc@@0 g6g12 *inc@@0 e6a12 *inc@@0 g4 *inc@@0 g6 *inc@@0 a12 
+
+*inc@@0 o5c2 o4 *inc@@0 a6 *inc@@0 g12 *inc@@0 e6 *inc@@0 a12
+*inc@@0 g6g12 *inc@@0 e6 *inc@@0 d12 c2
+
+;バグバイバイ
+*inc@@0 g6 *inc@@0 e12 *inc@@0 g6 *inc@@0 e12 *inc@@0 g6 *inc@@0 e12 *inc@@0 g6 *inc@@0 e12
+*inc@@0 g6 *inc@@0 e12 *inc@@0 a4 *inc@@0 a4 r4
+
+o5 *inc@@0 c6o4 *inc@@0 a12 o5 *inc@@0 c6 *inc@@0 o4a12 *inc@@0 o5c6 *inc@@0 o4a12 *inc@@0 o5c6 *inc@@0 o4a12
+o5 *inc@@0 c6o4 *inc@@0 a12 o5 *inc@@0 d4 *inc@@0 d4 *inc@@0 e6 *inc@@0 d12
+
+*inc@@0 e2 *inc@@0 d6 *inc@@0 d12 *inc@@0 c6 o4 *inc@@0 a12
+o4 *inc@@0 g6 *inc@@0 a12 o5 *inc@@0 c6 *inc@@0 d12 *inc@@0 c2
+
+;バグバイバイ
+o4
+*inc@@0 g6 *inc@@0 e12 *inc@@0 g6 *inc@@0 e12 *inc@@0 g6 *inc@@0 e12 *inc@@0 g6 *inc@@0 e12
+*inc@@0 g6 *inc@@0 e12 *inc@@0 a4 *inc@@0 a4 r4
+
+o5 *inc@@0 c6o4 *inc@@0 a12 o5 *inc@@0 c6 *inc@@0 o4a12 *inc@@0 o5c6 *inc@@0 o4a12 *inc@@0 o5c6 *inc@@0 o4a12
+o5 *inc@@0 c6o4 *inc@@0 a12 o5 *inc@@0 d4 *inc@@0 d4 *inc@@0 e6 *inc@@0 d12
+
+*inc@@0 e2 *inc@@0 d6 *inc@@0 d12 *inc@@0 c6 o4 *inc@@0 a12
+r6 *inc@@0 g4 *inc@@0 a12 o5 *inc@@0 c4 *inc@@0 d4
+*inc@@0 c1 r1
+}
+
+\fm[3]
+{
+@10
+|:36
+;***1
+
+@10 o2
+
+c4 c4 c*32 @11 o4 a*8a*8a*32a*16
+;***2
+
+/
+@10 o2
+
+c*32 c4 c*16 c*32 @11 o4 a*16 a*32 a*16
+:|
+
+@10 o2
+c*32 c4 c*16 c2
+
+}
+
+\soundfm[10]
+{
+31, 28, 0, 10, 15, 0, 1, 2, 0,
+31, 28, 0, 10, 15,20, 1, 10, 0,
+31, 15, 0, 10, 15, 0, 1, 0, 0,
+31, 15, 0, 10, 15, 0, 1, 0, 0,
+2}
+
+\soundfm[11]
+{
+31, 20, 1, 8, 1, 0, 13, 0, 0,
+31, 20, 15, 9, 9, 0, 13, 2, 0,
+31, 20, 10, 8, 14, 5, 13, 0, 0,
+31, 20, 15, 9, 5, 0, 13, 3, 0,
+4}
+
+\soundfm[0]
+{
+31, 11, 0, 0, 2, 26, 1, 2, 0,
+31, 11, 0, 1, 15, 0, 2, 4, 0,
+20, 10, 8, 1, 5, 25, 2, 1, 0,
+28, 10, 8, 1, 5, 5, 2, 1, 0,
+60}
+
+\soundfm[1]
+{
+25, 10, 0, 6, 6, 45, 0, 2, 5,
+25, 0, 0, 6, 0, 35, 0, 2, 1,
+25, 0, 0, 6, 0, 55, 0, 4, 3,
+25, 0, 1, 8, 0, 0, 0, 4, 1,
+58}
+
+\pcm[0]
+{
+asore1.pcm
+}
+
+\pcm[1]
+{
+hai2.pcm
+}
+
+\pcm[2]
+{
+hai1.pcm
+}
+
+\pcm[3]
+{
+bye1.pcm
+}
+
