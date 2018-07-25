@@ -1,0 +1,7 @@
+;歌詞スタート
+@0
+;1番
+r12 r12 *inc@@0 e12 *tof *ton  *inc@@0 g4 g4 g6 *tof *inc@@0 g12
+r12 r12 *inc@@0 a4  *inc@@0 g12  *inc@@0 e6  g12  *inc@@0 e6 d12
+*inc@@0 c6 c12 d6  *inc@@0 e12 *ton  *inc@@0 g2 g1 *tof
+･･･略･･･

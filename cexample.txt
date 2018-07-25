@@ -1,0 +1,18 @@
+unsigned char karaoke[]="¡\0ª\0‚à\0‚Ç\0‚±\0‚©\0‚ç\0Œ»\0‚ê\0‚é  \0"
+
+¥¥¥—ª¥¥¥
+while (kbhit()==0) 
+{
+	int status;
+	
+	leng2=varread(0);
+
+	if ((karaoke[pt]!='*') && (leng1 != leng2))
+	{
+		printf ("%s",&karaoke[pt]);
+		pt+=strlen(&karaoke[pt])+1;
+	}
+    leng1=leng2;
+	status = getstatus();
+	if ((status & 1) != 0) break;
+}
